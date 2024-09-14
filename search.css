@@ -1,0 +1,37 @@
+.section{
+    margin-top: 30px;
+}
+.search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin:auto;
+}
+.search input{
+border: none;
+background-color: transparent;
+width: 100%;
+}
+.search input:focus{
+    outline: none;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.quote{
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.quote img{
+    width: 100px;
+    height: 100px;
+}
